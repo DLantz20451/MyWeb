@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order</title>
+    <link rel="stylesheet" href="css/pizzatimestyle.css">
+</head>
+<nav>
+    <ul>
+        <li><a class="dropdown-item" href="index.html">Home Page</a></li>
+        <li><a class="dropdown-item" href="warframe.html">Warframe</a></li>
+        <li><a class="dropdown-item" href="destiny.html">Destiny</a></li>
+        <li><a class="dropdown-item" href="pizzatime.html">Pizza Time</a></li>
+    </ul>
+</nav>
+<nav>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <li><a class="dropdown-item" href="https://fccc-sd.github.io/bootstrap-GameNerdJake/">Jake</a></li>
+        <li><a class="dropdown-item" href="https://fccc-sd.github.io/website-UsLegend123/">Sammy</a></li>
+        <li><a class="dropdown-item" href="https://fccc-sd.github.io/website-JacobDobbelaere/">Jacob</a></li>
+        <li><a class="dropdown-item" href="https://fccc-sd.github.io/bootstrap-AshtonCreager/">Ashton</a></li>
+        <li><a class="dropdown-item" href="https://fccc-sd.github.io/bootstrap-dwinger175/">Dylan</a></li>
+        <li><a class="dropdown-item" href="https://fccc-sd.github.io/bootstrap-kaedinpittman05/">Kaedin</a></li>
+        <li><a class="dropdown-item" href="https://fccc-sd.github.io/bootstrap-Nickjulian20343/">Nick</a></li>
+        <li><a class="dropdown-item" href="https://fccc-sd.github.io/bootstrap-LoganDavoll/">Logan</a></li>
+        <li><a class="dropdown-item" href="rick.html">Rick</a></li>
+        <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=a3Z7zEc7AXQ">Mr.Geiger</a></li>
+    </ul>
+</nav>
+<nav>
+    <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=tmY-G6sngk8">A classic</a></li>
+    <li><a class="dropdown-item" href="https://www.warframe.com/landing">Warframe</a></li>
+    <li><a class="dropdown-item" href="https://bungiestore.com/bungie-rewards-nerf-lmtd-destiny-gjallarhorn-blaster?msclkid=2fae3ba8b1d011ec8d78dc2b98c8dc8d">
+      "If there is beauty in destruction, why not also in its delivery?" - Feizel Crux</a></li>
+      <li><a class="dropdown-item" href="pongie.html">PONGIE</a></li>
+      <li><a class="dropdown-item" href="ghost_platform.html">Ghost Platform</a></li>
+</nav>
+<body>
+    <form id="pizza_form" action="" method="post">
+        <p>Customer Name: <input type="text" name="Customer Name" id="Costomer Name"
+        autofocus><br></p>
+        <p>Phone Number: <input type="text" name="Phone Number" id="Phone Number"><br></p>
+        <p>Adress: <input type="text" name="Adress" id="Adress"><br></p>
+
+
+        <p>Toppings</p>
+        <fieldset>
+            <p><input type="checkbox" name="pepperoni" id="pepperoni">
+            <label for="pepperoni">Pepperoni</label>
+            <input type="checkbox" name="pull pork" id="pull pork">
+            <label for="pull pork">Pull Pork</label>
+            <input type="checkbox" name="sausage" id="sausage">
+            <label for="sausage">Sausage</label>
+            <input type="checkbox" name="bacon" id="bacon">
+            <label for="bacon">Bacon</label><br></p>
+            <p><input type="checkbox" name="extra cheese" id="extra cheese">
+            <label for="extra cheese">Extra Cheese</label>
+            <input type="checkbox" name="ham" id="ham">
+            <label for="ham">Ham</label>
+            <input type="checkbox" name="peppers" id="peppers">
+            <label for="peppers">Peppers</label>
+            <input type="checkbox" name="veggie" id="veggie">
+            <label for="veggie">Veggie</label><br></p>
+        </fieldset>
+
+        
+        <p>Crusts</p>
+        <fieldset>
+        <p><input type="radio" name="thin crust" id="thin crust">
+            <label for="thin crust">Thin Crust</label>
+            <input type="radio" name="thick crust" id="thick crust">               
+            <label for="thick crust">Thick Crust</label>
+            <input type="radio" name="normal crust" id="normal crust">
+            <label for="normal crust">Normal Crust</label>
+            <input type="radio" name="stuffed crust" id="stuffed crust">
+            <label for="stuffed crust">Stuffed Crust</label><br></p>
+            <p><input type="radio" name="garlic crust" id="garlic crust">
+            <label for="garlic crust">Garlic Crust</label>
+            <input type="radio" name="prezil crust" id="prezil crust">
+            <label for="prezil crust">Prezil Crust</label>
+            <input type="radio" name="crispy crust" id="crispy crust">
+            <label for="crispy crust">Crispy Crust</label>
+            <input type="radio" name="crustless" id="crustless">
+            <label for="crustless">Crustless</label><br></p>
+        </fieldset>
+
+
+        <p>Size</p>
+        <fieldset>
+            <p><input type="radio" name="small" id="small">
+            <label for="small">Small</label>
+            <input type="radio" name="medium" id="medium">
+            <label for="medium">Medium</label>
+            <input type="radio" name="large" id="large">
+            <label for="large">Large</label>
+            <input type="radio" name="Mega" id="Mega">
+            <label for="Mega">Mega</label><br></p>
+        </fieldset>
+
+        <br><textarea name="Notes" id="Notes" cols="20" rows="10" placeholder="Notes to us to make your order better"></textarea><br></p>
+
+        <p><input type="button" id="submit" value="Submit Order" ></p>
+    </form>
+</body>
+</html>
